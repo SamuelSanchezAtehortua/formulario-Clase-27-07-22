@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="http://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <title>Formulario de validacion</title>
+</head>
+<body>
+    <main>
+        <form action="" class="formulario" id="formuario">
+            <!--Usuarrio-->
+            <div class="formulario_grupo" id="grupo_usuario">
+                <label for="usuario" class="label_usuario">Usuario</label>
+                <div class="formulario_grupo_input">
+                    <input type="text" class="formulario-input" name="usuario" placeholder="Samuel">
+                    <i class="estado fas fa-times-circle"></i>
+                </div>
+                <p class="formulario_input-error">El usuario tiene que ser de 4 a 16 digitos y solo puede contener numeros, letras y guion bajo</p>
+
+            </div>
+            <!--Nombre-->
+            <div class="formulario_grupo" id="grupo_usuario">
+                <label for="name" class="label_usuario">Nombre</label>
+                <div class="formulario_grupo_input">
+                    <input type="text" class="formulario-input" name="name" placeholder="Samuel">
+                    <i class="estado fas fa-times-circle"></i>
+                </div>
+                <p class="formulario_input-error">El nombre debe contener letras</p>
+
+            </div>
+            <!--Correo electronico-->
+            <div class="formulario_grupo" id="grupo_usuario">
+                <label for="gmail" class="label_usuario">Correo electronico</label>
+                <div class="formulario_grupo_input">
+                    <input type="text" class="formulario-input" name="name" placeholder="samuelsa@gmail.com">
+                    <i class="estado fas fa-times-circle"></i>
+                </div>
+                <p class="formulario_input-error">Correo electronico solo puede contener letras, numeros, puntos,guion medio y guion bajo</p>
+
+            </div>
+            <!--Contraseña-->
+            <div class="formulario_grupo" id="grupo_usuario">
+                <label for="password" class="label_usuario">Contraseña</label>
+                <div class="formulario_grupo_input">
+                    <input type="text" class="formulario-input" name="name" placeholder="23deHerrera">
+                    <i class="estado fas fa-times-circle"></i>
+                </div>
+                <p class="formulario_input-error">La contraseña debe tener almenos 6 digitos </p>
+
+            </div>
+            <!--Contraseña2-->
+            <div class="formulario_grupo" id="grupo_usuario">
+                <label for="password" class="label_usuario">Repetir contraseña</label>
+                <div class="formulario_grupo_input">
+                    <input type="text" class="formulario-input" name="name" placeholder="23deHerrera">
+                    <i class="estado fas fa-times-circle"></i>
+                </div>
+                <p class="formulario_input-error">Ambas contraseñas deben ser iguales</p>
+
+            </div>
+            <!--Telefono-->
+            <div class="formulario_grupo" id="grupo_usuario">
+                <label for="password" class="label_usuario">Telefono</label>
+                <div class="formulario_grupo_input">
+                    <input type="text" class="formulario-input" name="name" placeholder="2305193481">
+                    <i class="estado fas fa-times-circle"></i>
+                </div>
+                <p class="formulario_input-error">Solo puede contener numeros</p>
+
+            </div>
+            <!--Terminos y condiciones-->
+            <div class="formulario_grupo">
+                <label for="label_form">
+                    <input type="checkbox" type="checkbox" name="terminos">
+                    Acepto terminos y condiciones 
+                </label>
+            </div>
+
+
+
+        </form>
+    </main>
+    
+</body>
+</html>
